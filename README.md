@@ -33,6 +33,7 @@ We will start off with an api-only rails app with RSpec Guard so that our tests 
 > * edit rspec to handle focus
 
 Scatch pad
+
 `rails g rspec:request characters`
 `doc.search('table')[0].search('tr')[1..-1]`
 ```
