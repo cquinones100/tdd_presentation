@@ -32,7 +32,12 @@ We will start off with an api-only rails app with RSpec Guard so that our tests 
 > * add pry to gemfile
 > * edit rspec to handle focus
 
-# Spec
-
-* Run `rails g rspec:request get_characters`
-* change name of spec file
+Scatch pad
+`rails g rspec:request characters`
+`doc.search('table')[0].search('tr')[1..-1]`
+```
+  split_name = text.split("\n")
+  name = split_name[1]
+  franchise = split_name[-1]
+```
+`allow(NokogiriWrapper).to receive(:html_from_url).and_return(MockedSmashBrosHtml)`
